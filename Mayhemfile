@@ -1,5 +1,5 @@
 project: csv-parser
-target: csv-parser
+target: csv-info
 testsuite:
   - file://tests/data/fake_data/ints.csv
 
