@@ -4,6 +4,6 @@ testsuite:
   - file://tests/data/fake_data/ints.csv
 
 cmds:
-  - cmd: /repo/build/programs/csv_info @@
+  - cmd: /csv_info @@
     env:
       DISABLE_SMOKETEST: '1'
