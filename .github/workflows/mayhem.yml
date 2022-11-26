@@ -51,7 +51,8 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - mayhem/Mayhemfile
+          - mayhem/Mayhemfile_csv_info
+          - mayhem/Mayhemfile_parse_no_header
 
     steps:
       - uses: actions/checkout@v2
