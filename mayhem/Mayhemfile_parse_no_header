@@ -1,0 +1,5 @@
+project: csv-parser
+target: parse-no-header
+
+cmds:
+  - cmd: /fuzz_parse_no_header
